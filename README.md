@@ -8,7 +8,7 @@ The good news is that because this is a standalone executable (`.exe`), you need
 
 1.  **Windows OS**: The tool is built for Windows (Windows 10 or 11 recommended).
 2.  **Internet Connection**: You must be online to crawl websites and download files.
-3.  **Target URL**: Have the website address ready (e.g., `https://example.com/reports`).
+3.  **Target URL**: Have the website address ready. Make sure the website have pdf inside and doesnt have antibot security like cloudflare (e.g., `https://mondaymandala.com/puppy-coloring-pages/`).
 4.  **No Installation Required**: You do **NOT** need to install Node.js, Python, or any other software.
 
 ---
@@ -25,13 +25,3 @@ The good news is that because this is a standalone executable (`.exe`), you need
 ## 📂 Where are my files?
 *   The tool will create a folder named **`downloads`** in the same location as the `.exe` file.
 *   All downloaded PDFs will be saved there.
-
-## ⚠️ Common Issues & Tips
-*   **"Windows protected your PC"**: If you see a blue SmartScreen warning, click **"More info"** -> **"Run anyway"**. This happens because the app is not digitally signed (common for custom internal tools).
-*   **Blocked Access**: Some websites block crawlers. If the tool finds 0 files on a page you know has PDFs, the site might have anti-bot protection.
-
----
-
-## ⚡ Performance
-*   **Speed**: The tool downloads up to 5 files simultaneously.
-*   **Timeout**: If a file takes longer than 60 seconds to download, it will be skipped to keep the process moving.
