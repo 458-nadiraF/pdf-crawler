@@ -1,0 +1,21 @@
+{
+  "name": "pdf-crawler",
+  "version": "1.0.0",
+  "description": "PDF Web Crawler RPA Tool",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg . --targets node18-win-x64 --output pdf-crawler.exe"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "axios": "^1.6.7",
+    "cheerio": "^0.22.0",
+    "cli-progress": "^3.12.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
