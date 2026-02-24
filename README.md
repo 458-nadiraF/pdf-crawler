@@ -15,10 +15,12 @@ The good news is that because this is a standalone executable (`.exe`), you need
 
 ## 🚀 How to Run
 
-1.  Locate **`pdf-crawler.exe`** in the folder.
-2.  Double-click it.
-3.  A black window will appear asking for a URL.
-4.  Paste your URL and press **Enter**.
+1.  Run this in your cmd, make sure your PC support github
+     git clone https://github.com/458-nadiraF/pdf-crawler.git
+2.  Locate **`pdf-crawler.exe`** in the folder.
+3.  Double-click it.
+4.  A black window will appear asking for a URL.
+5.  Paste your URL and press **Enter**.
 
 ---
 
